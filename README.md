@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @MaelYeager
+- 👀 I’m interested in Programming and Computer Science
+- 🌱 I’m currently learning html and css
+- 💞️ I’m looking to collaborate on linked.in as a freelancer
+- 📫 How to reach me? You can send me an email at ismaildicky984@gmail.com
