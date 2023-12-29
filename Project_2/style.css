@@ -1,0 +1,56 @@
+/* All Page Start */
+h2 {
+background-color: #deb74e;
+border: solid black 1px;
+}
+ 
+#del {
+color: #ffffff;
+text-align: center;
+}
+/* All Page End */
+
+
+/* index Page Start */
+#container {
+background-color: #fff5d9;
+}
+
+#title {
+color: #ffffff;
+font-size: 100px;
+text-align: center;
+background-color: #deb74e;
+border: solid black 2px;
+}
+/* index Page End */
+
+
+/* article_1 Page Start */
+#container1 {
+background-color: #ced9f5;
+}
+
+#article1 {
+color: #ffffff;
+text-align: left;
+font-size: 70px;
+background-color: #5487ff;
+border: solid black 2px;
+}
+/* article_1 Page End */
+
+
+/* article_2 Page Start */
+#container2 {
+background-color: #d9ffd4;
+}
+
+#article2 {
+color: #ffffff;
+text-align: right;
+font-size: 70px;
+background-color: #46913c;
+border: solid black 2px;
+}
+/* article_2 Page End */
