@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @MaelYeager
+- 👋 Hi, I’m @ismaildickys
 - 👀 I’m interested in Programming and Computer Science
 - 🌱 I’m currently learning html and css
 - 💞️ I’m looking to collaborate on linked.in as a freelancer
