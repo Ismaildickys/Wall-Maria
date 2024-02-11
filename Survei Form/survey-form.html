@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+
+<!--SECTION1 start-->
+  <h1>Survey Form</h1>
+  <p>Tolong isi formulir di bawah sesuai dengan data diri anda!</p>
+  <form id="survey-form">
+	<fieldset>
+	 <label id="name-label">Masukkan Nama:</label>
+	 <input id="name" type="text" placeholder="John Doe" required />
+	 <label id="email-label">Masukkan Email:</label>
+	 <input id="email" type="email" placeholder="example@gmail.com" required />
+	 <label id="call-label">No.Tlpn:</label>
+	 <input id="call" type="number" placeholder="08386538****" required />
+	 <label id="number-label">Umur (tahun):</label>
+	 <input id="number" type="number" min="13" max="125" placeholder="123" required />
+	</fieldset>
+<!--SECTION1 end-->
+
+<!--SECTION2 start-->
+	<fieldset>
+	 <label for="dropdown">Status Pendidikan: 
+	  <select id="dropdown" name="dropdown" required>
+	   <option value="">(pilih salah satu)</option>
+	   <option value="1">Siswa/Siswi SMP</option>
+		<option value="2">Siswa/Siswi SMK</option>
+	   <option value="3">Mahasiswa</option>
+	   <option value="4">Diploma 1</option>
+	   <option value="5">Sarjana 1</option>
+	   <option value="6">Lainnya</option>
+	  </select>
+	 </label>
+	 <label for="boy"><input class="inline" id="boy" name="gender" type="radio" checked />Laki - laki</label>
+	 <label for="girl"><input class="inline" id="girl" name="gender" type="radio" />Perempuan</label>
+	 <label for="summary">Diskripsikan dirimu:<textarea id="summary" name="summary" placeholder="Aku suka ngoding dimana pun, dan kapanpun..." row="3" cols="30"></textarea></label>
+	</fieldset>
+	<fieldset>
+	 <label for="condition"><input class="inline" id="condition" type="checkbox" value="condition" required />Saya menyatakan setuju dengan S&K dari website ini.</label>
+	 <label for="service"><input class="inline" id="service" type="checkbox" value="service" required />Saya meng-izinkan website ini untuk mengirim pesan ke email saya, terkait produk dan layanan.</label>
+	</fieldset>
+<!--SECTION2 end-->	
+	
+<!--SUBMIT BUTTON-->
+	<label for="submit"><label/>
+	<input id="submit" type="submit" value="Submit" />
+  </form>
+ </body>
+</html>
