@@ -77,3 +77,7 @@ label[for="condition"], label[for="service"] {
 	font-size: 7px;
 }
 
+label[for="boy"], label[for="girl"] {
+	display: inline;
+}
+
